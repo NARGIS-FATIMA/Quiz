@@ -30,6 +30,7 @@ const Quiz = () => {
         {quizState.questions.length}
         </div>
         <Question />
+        <h1>Quiz App</h1>
         <div
           className="next-button"
           onClick={() => dispatch({ type: "NEXT-QUESTION" })}
